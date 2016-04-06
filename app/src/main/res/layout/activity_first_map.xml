@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map" tools:context=".FirstMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ee0000ff"
+    android:padding="1px"
+    android:id="@+id/back"
+    >
+
+    <Button android:id="@+id/button22"
+        android:layout_width="0dp"
+        android:layout_weight="25"
+        android:layout_height="fill_parent"
+        android:textColor = "#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="10px"
+        android:text="導航" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText51"
+        android:textStyle="bold"
+        android:textColor = "#ffffff"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:layout_gravity="right" />
+
+    <Button android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_weight="25"
+        android:layout_height="fill_parent"
+        android:textColor = "#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="10px"
+        android:text="新增" />
+
+    <!--
+        <Button android:id="@+id/traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="路況" />
+
+        <Button android:id="@+id/streetview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="街景" />
+
+        <Button android:id="@+id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="導航" />
+    -->
+</LinearLayout>
+
+<!--
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#550000ff"
+    android:padding="1px"
+    >
+    <Button android:id="@+id/zin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:text="+" />
+    <Button android:id="@+id/zout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button android:id="@+id/pann"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N" />
+
+    <Button android:id="@+id/pane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E" />
+
+    <Button android:id="@+id/panw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W" />
+
+    <Button android:id="@+id/pans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S" />
+
+</LinearLayout>
+-->
+
+</FrameLayout>
